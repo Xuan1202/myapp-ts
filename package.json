@@ -31,7 +31,11 @@
         ]
     },
     "lint-staged": {
-        "*.{js,css,md,ts,tsx,json}": "prettier --write"
+        "*.{ts,tsx}":[
+            "eslint --fix",
+            "git add",
+            "prettier --write"
+        ] 
     },
     "browserslist": {
         "production": [
