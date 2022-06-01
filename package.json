@@ -33,8 +33,7 @@
     "lint-staged": {
         "*.{ts,tsx}":[
             "eslint --fix",
-            "git add",
-            "prettier --write"
+            "git add"
         ] 
     },
     "browserslist": {
