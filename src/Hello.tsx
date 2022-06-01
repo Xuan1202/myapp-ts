@@ -8,7 +8,9 @@ interface Greeting {
 const Hello: React.FC<Greeting> = (props: Greeting) => {
     return (
         <div>
+
             <h3>Hello组件</h3>
+            <span>name的值：</span>
             <p>{props.name == 'tom' ? props.name + 'hanks' : props.name}</p>
         </div>
     )
