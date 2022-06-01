@@ -9,7 +9,7 @@ const Hello: React.FC<Greeting> = (props: Greeting) => {
     return (
         <div>
             <h3>Hello组件</h3>
-            {/* <p>{props.name}</p> */}
+            <p>{props.name == 'tom' ? props.name + 'hanks' : props.name}</p>
         </div>
     )
 }
