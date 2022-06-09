@@ -8,9 +8,11 @@ interface Greeting {
 const Hello: React.FC<Greeting> = (props: Greeting) => {
     return (
         <div>
-                <h3>Hello组件</h3>
-                   <h1>新增</h1>
-                <span>哈哈哈</span>
+            <h3>Hello组件</h3>
+
+
+
+            <span>哈哈哈</span>
             <span>111111</span>
             <p>{props.name === 'tom' ? props.name + 'hanks' : props.name}</p>
         </div>
