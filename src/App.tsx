@@ -1,16 +1,16 @@
 /** @format */
 
-import React from 'react'
-import Hello from './Hello'
-import './App.css'
-class App extends React.Component<{}, {}> {
+import React from 'react';
+import Hello from './Hello';
+import './App.css';
+class App extends React.Component<string, unknown> {
     render() {
         return (
             <div>
                 <h3 className="app-h3">App组件</h3>
                 <Hello name="tom" />
             </div>
-        )
+        );
     }
 }
-export default App
+export default App;
