@@ -3,7 +3,7 @@
 import React from 'react';
 import Hello from './Hello';
 import './App.css';
-class App extends React.Component<string, unknown> {
+class App extends React.Component {
     render() {
         return (
             <div>
