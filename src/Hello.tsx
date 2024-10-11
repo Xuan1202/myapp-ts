@@ -9,7 +9,7 @@ const Hello: React.FC<Greeting> = (props: Greeting) => {
     return (
         <div>
             <h3>Hello组件</h3>
-
+            <span>test</span>
 
 
             <span>哈哈哈</span>
